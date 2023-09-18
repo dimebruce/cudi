@@ -19,7 +19,7 @@ function App() {
       <h1>Cultura Digital l</h1>
       {/* Para ocultar informacion del iFrame se usa este code
       rel=0&amp;showinfo=0 */}
-      <div>
+      <div className="frame-container">
         <iframe
           width="560"
           height="315"
