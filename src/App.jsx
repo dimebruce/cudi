@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Cultura Digital l</h1>
+      <h2>Parcial l - Ética y Programación</h2>
       {/* Para ocultar informacion del iFrame se usa este code
       rel=0&amp;showinfo=0 */}
       <div className="frame-container">
