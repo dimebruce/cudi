@@ -1,6 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import pdfProyecto from "/proyectoParcial-l.pdf"
 import "./App.css";
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
         ></iframe>
+      </div>
+      <div>
+        <h4><a href={pdfProyecto} target={"_blank"}>👉 Proyecto Parcial I (Descarga ⏬)</a> </h4>
       </div>
 
       <p className="read-the-docs">
